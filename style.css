@@ -1,0 +1,107 @@
+/* Nav Section */
+.topnav {
+    display: inline;
+ 
+    
+}
+#topnav {
+    margin-top: 15px;
+    overflow:hidden;
+
+}
+.topnav-right {
+    float: right;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+li {
+    float: left;
+}
+li a {
+    display: block;
+    margin: 10px;
+}
+.topnav a {
+    color: #000;
+}
+#hamburger {
+    width: 20px;
+    height: 20px;
+}
+#bottomnav {
+    position: absolute;
+    bottom: 0;
+    height: 45px;
+    width: 100%;
+    background-color: #f2f2f2;
+}
+#bottomnav-right {
+    float: right;
+    margin-right: 20px;
+}
+#bottomnav a {
+    color: #5f5f5f;
+    margin: 15px 20px;
+}
+a {
+    text-decoration: none;
+}
+
+/* Main */
+
+main {
+    
+    margin: auto;
+    margin-top: 150px;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+form {
+    display: block;
+    width: 50%;
+    margin-left: 23%;
+}
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+.button {
+    overflow: visible;
+    background-color: #f4f4f4;
+    color: #646368;
+    text-align: center;
+    border: none;
+    text-decoration: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    font-size: 14px;
+    display: inline-flex;
+}
+#searchbar {
+    background-color: transparent;
+    border-radius: 25px;
+    border: 1px darkgrey solid;
+    width: 100%;
+    height: 40px;
+    display: inline-flex;
+    padding-left: 50px;
+    margin: 30px 0px;
+    display: flex;
+    flex: 1;
+    background: url(/google-homepage/desktop_searchbox_sprites302_hr.webp) no-repeat scroll 10px 6px;
+    background-size: 30px;
+    box-sizing: content-box;
+}
+.search{
+    display:flex;
+    margin-left:auto;
+    margin-right:auto;
+}

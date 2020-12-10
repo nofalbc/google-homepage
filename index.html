@@ -1,45 +1,60 @@
-<!DOCTYPE html>
+<!DOCTYPE html5>
 <html>
     <head>
-        <link rel="stylesheet" href="/home/brad/the_odin_project/google-homepage/style.css" type="text/css">
+        <link rel="stylesheet" href="reset.css" type="text/css">
+        <link rel="stylesheet" href="style.css" type="text/css">
         <title>Google Copy</title>
     </head>
     <body>
-        <header>
-            <nav id="navbar-header">
-                <ul class="header-links">
-                    <li><a href="#">Search</a></li>
-                    <li><a href="#">Images</a></li>
-                    <li><a href="#">Maps</a></li>
-                    <li><a href="#">Play</a></li>
-                    <li><a href="#">Youtube</a></li>
-                    <li><a href="#">News</a></li>
-                    <li><a href="#">Gmail</a></li>
-                    <li><a href="#">Drive</a></li>
-                    <li><a href="#">More</a></li>
-                    <li><a id="signin" href="#">Sign In</a></li>
-                    <li><a id="settings" href="#">Settings</a></li>
+        
+            <div class="topnav">
+                <ul id="topnav">
+                    <li>
+                        <a href="#">About</a>
+                    </li>
+                    <li>
+                        <a href="#">Store</a>
+                    </li>
+                    <div class="topnav-right">
+                        <li>
+                            <a href="#">Gmail</a>
+                        </li>
+                        <li>
+                            <a href="#">Images</a>
+                        </li>
+                        <li>
+                            <a href="#"><img id=hamburger src="images/hamburger.png"></a>
+                        </li>
+                        <li>
+                            <a href="#" id="signin">Sign In</a>
+                        </li>
+                    </div>
                 </ul>
-            </nav>
-        </header>
-        <img id="logo" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="google logo">
-        <form id="searchbar">
-            <input type="text" id="textbar"><br>
-            <input type="submit" value="Google Search">
-            <input type="submit" value="I'm Feeling Lucky">
-        </form>
+            </div>
+        
+        <main>
+            <div class="logo">
+                <img src="images/googlelogo_color_272x92dp.png">
+            </div>
+            <form id="search">
+                <input type="search" id="searchbar"><br>
+                    <input type="button" class="button" value="Google Search">
+                    <input type="button" class="button" value="I'm Feeling Lucky">
+            </form>
+        </main>
         <footer>
-            <nav id="navbar-footer">
-                <ul class="footer-links">
-                    <li><a class="fbarleft" href="#">Advertising</a></li>
-                    <li><a class="fbarleft" href="#">Business</a></li>
-                    <li><a class="fbarleft" href="#">How Search works</a></li>
-                    <li><a class="fbar" href="#">Carbon neutral since 2007</a></li>
-                    <li><a class="fbarright" href="#">Privacy</a></li>
-                    <li><a class="fbarright" href="#">Terms</a></li>
-                    <li><a class="fbarright" href="#">Settings</a></li>
+            <div class="bottomnav">
+                <ul id="bottomnav">
+                    <li><a href="#">Advertising</a></li>
+                    <li><a href="#">Business</a></li>
+                    <li><a href="#">How Search works</a></li>
+                    <div id="bottomnav-right">
+                    <li><a href="#">Privacy</a></li>
+                    <li><a href="#">Terms</a></li>
+                    <li><a href="#">Settings</a></li>
+                    </div>
                 </ul>
-            </nav>
+            </div>
         </footer>
     </body>
 </html>
